@@ -15,6 +15,9 @@
 		477BB90D23DA518B00DBE0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477BB90B23DA518B00DBE0A3 /* LaunchScreen.storyboard */; };
 		477BB91823DA518B00DBE0A3 /* CIGithubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB91723DA518B00DBE0A3 /* CIGithubTestTests.swift */; };
 		477BB92323DA518B00DBE0A3 /* CIGithubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB92223DA518B00DBE0A3 /* CIGithubTestUITests.swift */; };
+		477BB93123DA51C700DBE0A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB93023DA51C700DBE0A3 /* DataManager.swift */; };
+		477BB93223DA51C700DBE0A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB93023DA51C700DBE0A3 /* DataManager.swift */; };
+		477BB93323DA51C700DBE0A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB93023DA51C700DBE0A3 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		477BB91E23DA518B00DBE0A3 /* CIGithubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIGithubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		477BB92223DA518B00DBE0A3 /* CIGithubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIGithubTestUITests.swift; sourceTree = "<group>"; };
 		477BB92423DA518B00DBE0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477BB93023DA51C700DBE0A3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				477BB90923DA518B00DBE0A3 /* Assets.xcassets */,
 				477BB90B23DA518B00DBE0A3 /* LaunchScreen.storyboard */,
 				477BB90E23DA518B00DBE0A3 /* Info.plist */,
+				477BB93023DA51C700DBE0A3 /* DataManager.swift */,
 			);
 			path = CIGithubTest;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477BB90523DA518A00DBE0A3 /* ViewController.swift in Sources */,
+				477BB93123DA51C700DBE0A3 /* DataManager.swift in Sources */,
 				477BB90123DA518A00DBE0A3 /* AppDelegate.swift in Sources */,
 				477BB90323DA518A00DBE0A3 /* SceneDelegate.swift in Sources */,
 			);
@@ -270,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477BB91823DA518B00DBE0A3 /* CIGithubTestTests.swift in Sources */,
+				477BB93223DA51C700DBE0A3 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477BB92323DA518B00DBE0A3 /* CIGithubTestUITests.swift in Sources */,
+				477BB93323DA51C700DBE0A3 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
