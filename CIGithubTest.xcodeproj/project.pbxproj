@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47098E7B23DA55090025A69C /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 47098E7A23DA55090025A69C /* KeychainAccess */; };
 		477BB90123DA518A00DBE0A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB90023DA518A00DBE0A3 /* AppDelegate.swift */; };
 		477BB90323DA518A00DBE0A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB90223DA518A00DBE0A3 /* SceneDelegate.swift */; };
 		477BB90523DA518A00DBE0A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BB90423DA518A00DBE0A3 /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47098E7B23DA55090025A69C /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = CIGithubTest;
+			packageProductDependencies = (
+				47098E7A23DA55090025A69C /* KeychainAccess */,
+			);
 			productName = CIGithubTest;
 			productReference = 477BB8FD23DA518A00DBE0A3 /* CIGithubTest.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 477BB8F423DA518A00DBE0A3;
+			packageReferences = (
+				47098E7923DA55090025A69C /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 477BB8FE23DA518A00DBE0A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		47098E7923DA55090025A69C /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		47098E7A23DA55090025A69C /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47098E7923DA55090025A69C /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 477BB8F523DA518A00DBE0A3 /* Project object */;
 }
